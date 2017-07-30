@@ -3,7 +3,7 @@ var server = jsonServer.create();
 var router = jsonServer.router('db.json');
 var middlewares = jsonServer.defaults();
 var fs = require('fs');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 server.use(middlewares);
 server.use(router);
