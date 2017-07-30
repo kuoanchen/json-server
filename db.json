@@ -1,9 +1,5 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
+  "movies": [
+    { "id": 1, "name": "羅根", "type": "美國","category":"動作、劇情","release":"017-02-28","length":"2時18分","cover":"","video":"" }
   ]
 }
